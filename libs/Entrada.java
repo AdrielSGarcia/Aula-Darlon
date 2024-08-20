@@ -23,6 +23,15 @@ public class Entrada {
         return entrada.nextInt();
     }
 
+    public static char lerChar(){
+        return entrada.next().charAt(0);
+    }
+
+    public static char lerChar(String msg){
+        System.out.println(msg);
+        return entrada.next().charAt(0);
+    }
+
     public static double lerDouble(){
         return entrada.nextDouble();
     }

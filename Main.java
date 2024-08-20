@@ -1,8 +1,8 @@
-import aula.Aula20;
+import aula.*;
 
 public class Main{
     public static void main(String[] args){
         System.out.println("-- Algoritmos e Estruturas de Dados --");
-        Aula20.exLerInteiro();
+        Aula23.entradaPalavra();
     }
 }
